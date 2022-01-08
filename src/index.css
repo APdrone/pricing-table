@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  margin: 50px 100px;
+  margin: 30px;
 }
 
 .center {
@@ -80,6 +80,12 @@ body {
 
 .btn:hover {
   background-color: rgb(73, 73, 114);
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+  .container {
+    margin: 50px 100px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
